@@ -1,6 +1,6 @@
 1 City, Time, Condition
-2 London, 2023-01-05 18:00:00, scattered clouds
-3 London, 2023-01-05 21:00:00, light rain
-4 London, 2023-01-06 00:00:00, light rain
-5 London, 2023-01-06 03:00:00, light snow
-6 London, 2023-01-06 06:00:00, light snow
+2 Aleppo, 2023-01-06 18:00:00, broken clouds
+3 Aleppo, 2023-01-06 21:00:00, overcast clouds
+4 Aleppo, 2023-01-07 00:00:00, light rain
+5 Aleppo, 2023-01-07 03:00:00, moderate rain
+6 Aleppo, 2023-01-07 06:00:00, broken clouds
