@@ -1,4 +1,4 @@
-# Rename files in files directory
+# Add prefix in files directory
 from pathlib import Path
 
 # Define the root folder
