@@ -9,7 +9,7 @@ file_paths = root_dir.iterdir()
 
 for path in file_paths:
     new_filename = 'new-' + path.stem + path.suffix
-    # new_filepath = Path(new_filename) -> when we use whis format we rename names of files and move them inside of
+    # new_filepath = Path(new_filename) -> when we use whis format we add_prefix2 names of files and move them inside of
     # files directory
     # When we use this way we change names of files name inside of files directory
     new_filepath = path.with_name(new_filename)

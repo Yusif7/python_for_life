@@ -10,4 +10,5 @@ for path in file_paths:
         parent_folder = path.parts[1]
         new_filename = parent_folder + '-' + path.name
         new_filepath = path.with_name(new_filename)
+        print(new_filepath)
         path.rename(new_filepath)
