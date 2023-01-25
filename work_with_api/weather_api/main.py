@@ -21,4 +21,4 @@ def weather_app(city):
 
 
 
-weather_app('Aleppo')
+weather_app('Baku')
