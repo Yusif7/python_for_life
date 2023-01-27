@@ -1,7 +1,7 @@
 import yagmail
 import os
 
-receiver = 'hyuga89@mail.ru'
+receiver = 'mail@example.com'
 
 my_mail = os.getenv('email')
 my_password = os.getenv('password')
