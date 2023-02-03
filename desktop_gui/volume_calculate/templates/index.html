@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1>Volume Calculator</h1>
+        <p>Enter three dimensions to get the volume</p>
+        <form method="post">
+            <!-- If we want to have empty input field in the start of our program we use quotes in when define variable with jinja in html -->
+            <div>
+                <input value='{{dim_1}}' name="first_dim">
+            </div>
+            <div>
+                <input value='{{dim_2}}' name="second_dim">
+            </div>
+            <div>
+                <input value='{{dim_3}}' name="third_dim">
+            </div>
+            <!-- We use "output" variable in python to assign our result to it -->
+            <!-- If we want to use variable in html with jinja syntax only for showing result we do not need to add quotes -->
+            <p>{{output}}</p>
+            <button>Calculate</button>
+        </form>
+    </div>
+</body>
+</html>
